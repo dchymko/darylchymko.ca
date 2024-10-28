@@ -1,5 +1,5 @@
 ---
-id: 059d4d8d-fc60-49f8-8823-7da10549e84e
+id: 7d0da7fa-4987-46fc-bd60-2725b86752df
 blueprint: page
 title: 'Page not found'
 page_builder:
