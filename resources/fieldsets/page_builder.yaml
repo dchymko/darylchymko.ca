@@ -11,6 +11,18 @@ fields:
       display: 'Page builder'
       button_label: 'Add block'
       sets:
+        fw:
+          display: FW
+          instructions: 'Collection based content'
+          icon: alert-help-question
+          sets:
+            full_width_image:
+              display: 'Full width image'
+              instructions: 'A full width image with optional text and button(s).'
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  import: full_width_image
         interactive:
           display: Interactive
           instructions: 'Interactive blocks.'

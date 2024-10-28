@@ -3,13 +3,15 @@ tree:
     id: ae84904c-b9ed-4ee3-bbc3-ae5c00feab7c
     entry: home
   -
-    id: 5611d85b-6394-4253-b6ca-b10ef31c12b9
-    title: Examples
-    url: '#'
-    children:
-      -
-        id: 0d394cfc-013d-47c6-a12a-a992e077d846
-        entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
-      -
-        id: 7185b1e8-9e93-44eb-9d54-5869c1f8e4fd
-        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+    id: 467589dc-21f1-4b4d-97c7-66b778f6d387
+    title: 'My Experience'
+    url: 'https://resume.darylchymko.ca'
+  -
+    id: d46b5ac8-aa98-424a-b62e-0f01f0db3edf
+    entry: 897ca55c-363c-415b-96dd-c0a3615bc16b
+  -
+    id: c3562728-2468-40c2-9c66-378c1f062f14
+    entry: 7515e8cb-dc1a-4b4f-9f34-fbd67f3fe3d0
+  -
+    id: 82ffa458-3126-48e0-b1aa-41e8447374b2
+    entry: 9d25f7d4-5f61-4145-83b2-b41c70f07215
