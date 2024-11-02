@@ -5,6 +5,7 @@
 /public/vendor/statamic-peak-tools
 /public/img/
 /public/static/
+/public/images
 /storage/*.key
 /vendor
 .env
