@@ -36,7 +36,11 @@
                     {{ if text }}
                         {{ partial:typography/p class="mb-4" :content="text" }}
                     {{ /if }}
-                </div>
+		    {{ if cardimage }}
+			{{ partial:components/image  :image="cardimage"}}
+		    {{ /if }}
+		</div>
+
                 {{ button }}
                     {{ partial:components/button }}
                 {{ /button }}

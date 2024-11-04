@@ -29,7 +29,6 @@ fields:
                   field:
                     type: text
                     localizable: true
-                    validate: required
                     display: Title
                 -
                   handle: text
@@ -42,3 +41,11 @@ fields:
                   config:
                     display: Button
                     max_rows: 1
+                -
+                  handle: cardimage
+                  field:
+                    max_files: 1
+                    container: images
+                    type: assets
+                    display: Image
+                    localizable: false

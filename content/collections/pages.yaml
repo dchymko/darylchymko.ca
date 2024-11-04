@@ -1,4 +1,9 @@
 title: Pages
+sites:
+  - default
+  - okanagan_bikepackers
+  - hungry_hungry_half
+propagate: false
 template: default
 layout: layout
 revisions: false
