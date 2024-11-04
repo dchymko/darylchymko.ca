@@ -1,0 +1,58 @@
+{{#
+    @name Cards
+    @desc The Cards page builder block.
+    @set page.page_builder.cards
+#}}
+
+<!-- /page_builder/_cards.antlers.html -->
+{{ partial:page_builder/block }}
+    <div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
+        {{ block:title ?= { partial:typography/h2 :content="block:title" class="md:col-start-3 md:col-span-8 text-center" } }}
+
+        {{ block:cards }}
+            <article
+                class="
+                    flex flex-col justify-between items-start p-6 border border-neutral/10 shadow-lg rounded
+                    {{ switch(
+                        (total_results === 1) => 'md:col-span-8 md:col-start-3',
+                        (total_results === 2) => 'md:col-span-6',
+                        (total_results > 2) => 'md:col-span-8 md:col-start-3 lg:col-span-4 lg:col-start-0',
+                        () => void
+                    )}}
+                "
+            >
+                <div class="mb-4">
+                    <div class="text-blue-600 mb-4">
+                    {{ if svg_icon }}
+                    {{ svg_icon}}
+                    {{ else }}
+                        <div class="text-blue-600 mb-4">
+                            <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                        </div>
+                    {{ /if }}
+                    </div>
+                    {{ if button }}
+                        {{ button }}
+                            <a class="group " {{ partial:statamic-peak-tools::snippets/button_attributes }} aria-hidden="true" tabindex="-1">
+                                {{ partial:typography/h3 class="mb-2" color="group-hover:underline" :content="title" }}
+                            </a>
+                        {{ /button }}
+                        {{ partial:typography/h3 class="sr-only" :content="title" }}
+                    {{ else }}
+                        {{ partial:typography/h3 class="mb-2" :content="title" }}
+                    {{ /if }}
+
+                    {{ if text }}
+                        {{ partial:typography/p class="mb-4" :content="text" }}
+                    {{ /if }}
+                </div>
+                {{ button }}
+                    {{ partial:components/button }}
+                {{ /button }}
+            </article>
+        {{ /block:cards }}
+    </div>
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_cards.antlers.html -->

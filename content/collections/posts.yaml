@@ -1,20 +1,18 @@
-title: Pages
+title: Posts
 sites:
-  - default
-  - okanagan_bikepackers
-  - hungry_hungry_half
   - asynchronouswork
 propagate: false
 template: default
 layout: layout
 revisions: false
-route: '{parent_uri}/{slug}'
+route: '/posts/{slug}'
 date: true
 sort_dir: asc
+date_behavior:
+  past: public
+  future: private
 preview_targets:
   -
     label: Entry
     url: '{permalink}'
-    refresh: false
-structure:
-  root: true
+    refresh: true

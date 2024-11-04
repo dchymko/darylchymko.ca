@@ -1,7 +1,11 @@
-title: 'DC Blog Posts'
+title: 'Basic Blog Posts'
+sites:
+  - default
+propagate: false
 template: default
 layout: layout
 revisions: false
+route: '/blog_posts/{slug}'
 date: true
 sort_dir: asc
 date_behavior:

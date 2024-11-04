@@ -10,3 +10,7 @@ hungry_hungry_half:
   name: 'Hungry Hungry Half'
   url: 'https://hungryhungryhalf.com'
   locale: en_US
+asynchronouswork:
+  name: AsynchronoUs.work
+  url: 'https://asynchronous.work'
+  locale: en_US

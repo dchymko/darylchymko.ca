@@ -1,0 +1,29 @@
+{{#
+    @name Header
+    @desc The sites header rendered on each page.
+#}}
+
+<!-- /layout/_header.antlers.html -->
+
+
+        {{# Make partials you want to use for the header or use and edit premade examples like the following ones. #}}
+    <div class="span-content flex justify-between items-center">
+        {{# Make partials you want to use for the header or use and edit premade examples like the following ones. #}}
+        <div id="logoplaceholder"></div>
+	{{ partial:navigation/main }}
+    </div>
+        <div class="bg-blue-600">
+            <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                        {{ title }}
+                    </h1>
+                    <p class="mt-3 max-w-md mx-auto text-xl text-blue-100 sm:text-2xl md:mt-5 md:max-w-3xl">
+                        {{ subtitle }}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+<!-- End: /layout/_header.antlers.html -->
