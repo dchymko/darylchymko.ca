@@ -1,0 +1,100 @@
+<aside
+    class="flex xl:fixed xl:w-[585px] xl:h-full xl:top-0 xl:left-0 relative z-50 bg-slate-100"
+>
+    <div class="flex-col hidden px-6 pt-8 border-r xl:flex border-r-slate-200">
+        <div class="flex gap-6 [writing-mode:vertical-rl] flex-1">
+            <span class="font-medium text-slate-800">
+                {{ general:title }}
+            </span>
+            <span class="text-slate-300">&#47;</span>
+            <span class="text-slate-800">
+                {{ general:name }}
+            </span>
+        </div>
+
+        <div class="flex flex-col gap-8 pb-12">
+            {{ if general:email }}
+                <a
+                    href="mailto:{{ general:phone }}"
+                    title="Say hi"
+                    class="transition-colors duration-200 ease-in-out text-slate-500 hover:text-slate-800"
+                >
+                    <i icon-name="send" class="w-6 h-6"></i>
+                </a>
+            {{ /if }}
+            {{ if general:phone }}
+                <a
+                    href="tel:{{ general:phone }}"
+                    title="Say hi"
+                    class="transition-colors duration-200 ease-in-out text-slate-500 hover:text-slate-800"
+                >
+                    <i icon-name="phone" class="w-6 h-6"></i>
+                </a>
+            {{ /if }}
+        </div>
+    </div>
+
+    <div
+        class="flex flex-col w-full p-8 overflow-y-auto xl:px-16 xl:py-16 xl:border-r border-r-slate-200 xl:max-w-xl"
+    >
+        <div class="flex justify-between">
+            <picture
+                class="max-w-[200px] sm:max-w-[240px] md:max-w-[320px] rounded-3xl shadow-xl overflow-hidden aspect-square"
+            >
+                <source
+                    media="(max-width:768px)"
+                    srcset="
+                        {{ glide:image w="240" h="240" format="webp" quality="90" }} 1x,
+                        {{ glide:image w="480" h="480" format="webp" quality="90" }} 2x
+                    "
+                />
+                <source
+                    media="(min-width:1024px)"
+                    srcset="
+                        {{ glide:image w="320" h="320" format="webp" quality="90" }} 1x,
+                        {{ glide:image w="640" h="640" format="webp" quality="90" }} 2x
+                    "
+                />
+
+                <img
+                    src="{{ glide:image w="320" h="320" format="webp" fit="crop" }}"
+                    class="block object-cover object-center w-full h-auto"
+                    width="320"
+                    height="320"
+                />
+            </picture>
+
+            <div class="flex gap-6 mt-4 xl:hidden">
+                {{ if general:email }}
+                    <a
+                        href="mailto:{{ general:phone }}"
+                        title="Say hi"
+                        class="transition-colors duration-200 ease-in-out text-slate-500 hover:text-slate-800"
+                    >
+                        <i icon-name="send" class="w-6 h-6"></i>
+                    </a>
+                {{ /if }}
+                {{ if general:phone }}
+                    <a
+                        href="tel:{{ general:phone }}"
+                        title="Say hi"
+                        class="transition-colors duration-200 ease-in-out text-slate-500 hover:text-slate-800"
+                    >
+                        <i icon-name="phone" class="w-6 h-6"></i>
+                    </a>
+                {{ /if }}
+            </div>
+        </div>
+
+        <span class="mt-8 text-2xl font-bold text-slate-900">
+            {{ name }}
+        </span>
+        <span class="text-lg text-slate-500">
+            {{ job_title }}
+        </span>
+
+        <article class="mt-6 prose easing-relaxed prose-slate">
+            {{ introduction }}
+        </article>
+    </div>
+</aside>

@@ -1,0 +1,35 @@
+{{ partial:layout/frame }}
+    {{ slot:title }}
+        {{ section_title }}
+    {{ /slot:title }}
+    <div class="flex flex-col divide-y divide-slate-100">
+        {{ jobs }}
+            <div class="py-12 first:pt-0 last:pb-0">
+                <span class="font-sm text-slate-500">
+                    {{ from }}
+                    — {{ to }}
+                </span>
+
+                <div>
+                    <h3 class="mt-2 text-2xl font-bold text-slate-800">
+                        {{ title }}
+                        &#47; {{ company_name }}
+                    </h3>
+
+                    <article class="mt-4 prose prose-slate">
+                        {{ content }}
+                        <div class="flex flex-wrap gap-2">
+                            {{ tags }}
+                                <span
+                                    class="inline-flex items-center rounded-full bg-slate-200 px-2.5 py-0.5 text-xs font-medium text-slate-600"
+                                >
+                                    {{ value }}
+                                </span>
+                            {{ /tags }}
+                        </div>
+                    </article>
+                </div>
+            </div>
+        {{ /jobs }}
+    </div>
+{{ /partial:layout/frame }}

@@ -1,0 +1,21 @@
+{{ partial:layout/frame class="max-w-none" }}
+    {{ slot:title }}
+        {{ section_title }}
+    {{ /slot:title }}
+    <div
+        class="grid w-full max-w-5xl grid-cols-1 gap-8 gap-x-4 sm:grid-cols-2 md:grid-cols-3"
+    >
+        {{ grid_overview }}
+            <article class="prose prose-slate">
+                <p class="font-bold">{{ title }}</p>
+                <ul>
+                    {{ skills_list }}
+                        <li>
+                            {{ value }}
+                        </li>
+                    {{ /skills_list }}
+                </ul>
+            </article>
+        {{ /grid_overview }}
+    </div>
+{{ /partial:layout/frame }}

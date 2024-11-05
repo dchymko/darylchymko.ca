@@ -1,0 +1,98 @@
+title: Page
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+              localizable: false
+          -
+            handle: sidebar
+            field:
+              display: Sidebar
+              type: section
+              instructions: 'Fill out these fields that are shown in the sidebar'
+              localizable: false
+          -
+            handle: image
+            field:
+              container: images
+              max_files: 1
+              display: Image
+              type: assets
+              instructions: 'This image is shown in the sidebar, put an portrait image here'
+              validate:
+                - required
+              localizable: false
+          -
+            handle: name
+            field:
+              display: Name
+              type: text
+              instructions: 'Fill out your name'
+              validate:
+                - required
+              localizable: false
+          -
+            handle: job_title
+            field:
+              placeholder: 'Sr. Developer @ Statamic'
+              display: 'Job title'
+              type: text
+              instructions: 'Fill out your job title'
+              validate:
+                - required
+              localizable: false
+          -
+            handle: introduction
+            field:
+              buttons:
+                - lead
+                - bold
+                - italic
+                - removeformat
+              remove_empty_nodes: false
+              display: Introduction
+              type: bard
+              localizable: false
+          -
+            handle: content
+            field:
+              display: Content
+              type: section
+              localizable: false
+          -
+            import: content_blocks
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+              localizable: true
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true

@@ -1,0 +1,13 @@
+<section
+    class="relative z-40 max-w-3xl gap-4 mb-16 space-y-4 md:gap-8 md:space-y-8 columns-2 xl:mb-24"
+>
+    {{ images }}
+
+            <img
+                src="{{ glide:url w="1024" h="1024" format="webp" quality="90" }}"
+                class="w-full first:aspect-[3/4] last:aspect-[3/4] aspect-[4/3] object-cover rounded-3xl grayscale-[20%] hover:grayscale-0 transition-[filter] duration-150 ease-out"
+            />
+
+        </picture>
+    {{ /images }}
+</section>

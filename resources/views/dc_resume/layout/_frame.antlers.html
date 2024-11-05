@@ -1,0 +1,14 @@
+<section
+    class="relative z-40 flex max-w-5xl gap-6 mb-16 lg:gap-14 xl:gap-20 xl:mb-24 {{ class }}"
+>
+    {{ if slot:title }}
+        <div class="sticky self-start top-16 [writing-mode:vertical-rl] block">
+            <h2 class="text-xl font-bold text-slate-800">
+                {{ slot:title }}
+            </h2>
+        </div>
+    {{ /if }}
+    <div class="flex flex-col w-full">
+        {{ slot }}
+    </div>
+</section>

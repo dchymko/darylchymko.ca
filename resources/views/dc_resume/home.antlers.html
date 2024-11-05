@@ -1,0 +1,9 @@
+{{ partial:layout/sidebar }}
+<main
+    class="p-8 py-16 xl:p-16 flex-grow flex flex-col xl:ml-[585px] bg-white relative"
+>
+    {{ partial:components/page_overlay }}
+    {{ content_blocks }}
+        {{ partial src="sets/{type}" }}
+    {{ /content_blocks }}
+</main>

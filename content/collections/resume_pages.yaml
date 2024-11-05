@@ -1,0 +1,19 @@
+title: 'Resume Pages'
+sites:
+  - dc_resume
+propagate: false
+template: resume_pages/show
+layout: layout
+revisions: false
+route: '{parent_uri}/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
+structure:
+  root: true

@@ -1,0 +1,9 @@
+title: 'Resume Jobs'
+sites:
+  - dc_resume
+propagate: false
+template: resume_jobs/show
+revisions: false
+date_behavior:
+  past: public
+  future: private

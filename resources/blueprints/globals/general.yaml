@@ -1,0 +1,52 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: general_information
+            field:
+              display: 'General information'
+              type: section
+              instructions: 'Fill out your personal information like name, LinkedIn profile, etc'
+              localizable: false
+          -
+            handle: title
+            field:
+              placeholder: Resume
+              display: Title
+              type: text
+              instructions: 'Title that is shown is the side'
+              validate:
+                - required
+              localizable: false
+          -
+            handle: name
+            field:
+              placeholder: 'John Doe'
+              display: Name
+              type: text
+              instructions: 'Used in the sidebar'
+              validate:
+                - required
+              localizable: false
+          -
+            handle: phone
+            field:
+              input_type: tel
+              display: Phone
+              type: text
+              instructions: 'Used in the sidebar'
+              localizable: false
+          -
+            handle: email
+            field:
+              placeholder: johndoe@statamic.com
+              input_type: email
+              display: Email
+              type: text
+              instructions: 'Used in the sidebar, is required'
+              validate:
+                - required
+              localizable: false

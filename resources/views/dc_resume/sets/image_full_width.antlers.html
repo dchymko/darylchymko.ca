@@ -1,0 +1,25 @@
+{{ partial:layout/frame }}
+    <picture class="aspect-[2/1] max-w-5xl overflow-hidden rounded-3xl">
+        <source
+            media="(max-width:768px)"
+            srcset="
+                {{ glide:image w="240" h="240" format="webp" quality="90" }} 1x,
+                {{ glide:image w="480" h="480" format="webp" quality="90" }} 2x
+            "
+        />
+        <source
+            media="(min-width:1024px)"
+            srcset="
+                {{ glide:image w="1024" h="512" format="webp" quality="90" }}  1x,
+                {{ glide:image w="2048" h="1024" format="webp" quality="90" }} 2x
+            "
+        />
+
+        <img
+            src="{{ glide:image w="1024" h="512" format="webp" fit="crop" }}"
+            class="w-full h-auto grayscale-[20%] hover:grayscale-0 transition-[filter] duration-150 ease-out"
+            width="320"
+            height="320"
+        />
+    </picture>
+{{ /partial:layout/frame }}
