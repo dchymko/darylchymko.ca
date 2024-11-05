@@ -1,12 +1,15 @@
 tree:
   -
+    id: 487234b5-65cd-41a2-8ae6-c3e6865e1b0f
+    title: Home
+    url: /
+  -
     id: 12cebed7-c361-468d-b927-4b0ce20b0d6e
     title: 'The Basics'
     url: 'https://asynchronous.work/posts/the-async-advantage-why-less-real-time-communication-creates-stronger-teams'
   -
+    id: bd84e306-c635-4ad8-9724-c91f5d9cb0f9
+    entry: ea3ddd9e-6f99-4174-a105-85048f82112f
+  -
     id: c3d34e6e-94b9-4d58-b188-bed5e0483ec7
     entry: 8f2e41da-f316-4b82-b2d2-651f3e01b5c6
-  -
-    id: 487234b5-65cd-41a2-8ae6-c3e6865e1b0f
-    title: Home
-    url: /
