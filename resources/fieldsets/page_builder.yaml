@@ -16,6 +16,41 @@ fields:
           instructions: 'Collection based content'
           icon: alert-help-question
           sets:
+            call_to_action:
+              display: 'Call to action'
+              instructions: 'Show a call to action.'
+              icon: alert-alarm-bell
+              fields:
+                -
+                  import: call_to_action
+            cards:
+              display: Cards
+              instructions: 'Cards that link using the button fieldset.'
+              icon: link
+              fields:
+                -
+                  import: cards
+            collection:
+              display: Collection
+              instructions: 'Show collection entries.'
+              icon: file-content-list
+              fields:
+                -
+                  import: collection
+            columns:
+              display: Columns
+              instructions: 'Text columns with optional images and buttons.'
+              icon: layout-two-columns
+              fields:
+                -
+                  import: columns
+            divider:
+              display: Divider
+              instructions: 'A visual divider between blocks.'
+              icon: layout-table-row-insert
+              fields:
+                -
+                  import: divider
             full_width_image:
               display: 'Full width image'
               instructions: 'A full width image with optional text and button(s).'
@@ -23,6 +58,34 @@ fields:
               fields:
                 -
                   import: full_width_image
+            image_and_text:
+              display: 'Image and text'
+              instructions: 'An image and text side by side.'
+              icon: text-formatting-image-left
+              fields:
+                -
+                  import: image_and_text
+            images_grid:
+              display: 'Images grid'
+              instructions: 'A multi row image grid.'
+              icon: layout-grid-dots
+              fields:
+                -
+                  import: images_grid
+            index_content:
+              display: 'Index content'
+              instructions: 'Render the currently mounted entries if available.'
+              icon: file-content-list
+              fields:
+                -
+                  import: index_content
+            text_columns:
+              display: 'Text columns'
+              instructions: 'Text wrapping in two columns.'
+              icon: layout-three-columns
+              fields:
+                -
+                  import: text_columns
         interactive:
           display: Interactive
           instructions: 'Interactive blocks.'

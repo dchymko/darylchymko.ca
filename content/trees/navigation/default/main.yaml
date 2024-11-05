@@ -1,17 +1,11 @@
 tree:
   -
-    id: ae84904c-b9ed-4ee3-bbc3-ae5c00feab7c
-    entry: home
-  -
     id: 467589dc-21f1-4b4d-97c7-66b778f6d387
     title: 'My Experience'
     url: 'https://resume.darylchymko.ca'
   -
-    id: d46b5ac8-aa98-424a-b62e-0f01f0db3edf
-    entry: 897ca55c-363c-415b-96dd-c0a3615bc16b
+    id: 1c1832b6-9e88-4194-85cc-4115b8e6503c
+    entry: 86dc6c03-8e7d-4a33-98ea-74ebf759ea69
   -
-    id: c3562728-2468-40c2-9c66-378c1f062f14
-    entry: 7515e8cb-dc1a-4b4f-9f34-fbd67f3fe3d0
-  -
-    id: 82ffa458-3126-48e0-b1aa-41e8447374b2
-    entry: 9d25f7d4-5f61-4145-83b2-b41c70f07215
+    id: 8934a878-d142-408b-8250-f609e016bcb6
+    entry: 4bc7ee1c-8964-41ce-83ca-5535f2fbe524
