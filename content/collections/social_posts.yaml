@@ -1,12 +1,13 @@
-title: 'Social Pages'
+title: 'Social Posts'
 sites:
   - social
 propagate: false
-template: social_pages/show
+template: default
 layout: layout
 revisions: false
-route: '/{parent_uri}/{slug}'
-sort_dir: asc
+route: '/posts/{slug}'
+date: true
+sort_dir: desc
 date_behavior:
   past: public
   future: private
@@ -15,5 +16,3 @@ preview_targets:
     label: Entry
     url: '{permalink}'
     refresh: true
-structure:
-  root: true

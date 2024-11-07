@@ -17,6 +17,7 @@ export default defineConfig(({ command, mode }) => {
             laravel({
                 refresh: true,
                 input: [
+                    'resources/css/tailwind.css',
                     'resources/css/site.css',
                     'resources/js/site.js',
                 ]
