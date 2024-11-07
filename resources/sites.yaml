@@ -20,5 +20,5 @@ dc_resume:
   locale: en_US
 social:
   name: Social
-  url: /social
+  url: 'https://darylchymko.ca/social'
   locale: en_US
