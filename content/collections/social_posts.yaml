@@ -4,6 +4,9 @@ sites:
 propagate: false
 template: default
 layout: layout
+taxonomies:
+  - category
+  - tags
 revisions: false
 route: '/posts/{slug}'
 date: true
