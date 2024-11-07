@@ -18,3 +18,7 @@ dc_resume:
   name: 'DC Resume'
   url: 'https://darylchymko.ca/cv'
   locale: en_US
+social:
+  name: Social
+  url: /social
+  locale: en_US
