@@ -17,3 +17,6 @@ preview_targets:
     refresh: true
 structure:
   root: true
+inject:
+  protect: logged_in
+

@@ -19,3 +19,5 @@ preview_targets:
     label: Entry
     url: '{permalink}'
     refresh: true
+inject:
+  protect: logged_in
