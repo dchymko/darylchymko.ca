@@ -252,7 +252,7 @@ content_blocks:
               -
                 type: link
                 attrs:
-                  href: /assets/darylchymko-cv.pdf
+                  href: /files/darylchymko-cv.pdf
                   rel: null
                   target: _blank
                   title: null
