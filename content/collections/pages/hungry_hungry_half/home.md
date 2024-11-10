@@ -111,7 +111,7 @@ page_builder:
           values:
             type: image
             size: md
-            image: hhh/runners.jpg
+            image: images/hhh/runners.jpg
       -
         type: paragraph
       -
@@ -150,7 +150,7 @@ page_builder:
           id: m2rrozal
           values:
             type: image
-            image: hhh/vf_ado.png
+            image: images/hhh/vf_ado.png
             size: md
     type: article
     enabled: true
@@ -160,37 +160,37 @@ page_builder:
     cards:
       -
         id: m2sjtg5x
-        cardimage: hhh/klogonowhitebackground.png
+        cardimage: images/hhh/klogonowhitebackground.png
         type: card
         enabled: true
       -
         id: m2sjs4rr
-        cardimage: hhh/kelownanow.jpg
+        cardimage: images/hhh/kelownanow.jpg
         type: card
         enabled: true
       -
         id: m2sl8s64
-        cardimage: hhh/carsonphotographytextlogolarge.jpg
+        cardimage: images/hhh/carsonphotographytextlogolarge.jpg
         type: card
         enabled: true
       -
         id: m2slas04
-        cardimage: hhh/cofb-tag-yellow-and-orange.jpg
+        cardimage: images/hhh/cofb-tag-yellow-and-orange.jpg
         type: card
         enabled: true
       -
         id: m2slb4l5
-        cardimage: hhh/otf.jpg
+        cardimage: images/hhh/otf.jpg
         type: card
         enabled: true
       -
         id: m2slc0hl
-        cardimage: hhh/novproject.jpg
+        cardimage: images/hhh/novproject.jpg
         type: card
         enabled: true
       -
         id: m2slclfx
-        cardimage: hhh/twp-logo-apr2013-icon-800pxw.png
+        cardimage: images/hhh/twp-logo-apr2013-icon-800pxw.png
         type: card
         enabled: true
     type: cards
