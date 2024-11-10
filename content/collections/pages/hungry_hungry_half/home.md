@@ -160,37 +160,37 @@ page_builder:
     cards:
       -
         id: m2sjtg5x
-        cardimage: images/hhh/klogonowhitebackground.png
+        card_image: images/hhh/klogonowhitebackground.png
         type: card
         enabled: true
       -
         id: m2sjs4rr
-        cardimage: images/hhh/kelownanow.jpg
+        card_image: images/hhh/kelownanow.jpg
         type: card
         enabled: true
       -
         id: m2sl8s64
-        cardimage: images/hhh/carsonphotographytextlogolarge.jpg
+        card_image: images/hhh/carsonphotographytextlogolarge.jpg
         type: card
         enabled: true
       -
         id: m2slas04
-        cardimage: images/hhh/cofb-tag-yellow-and-orange.jpg
+        card_image: images/hhh/cofb-tag-yellow-and-orange.jpg
         type: card
         enabled: true
       -
         id: m2slb4l5
-        cardimage: images/hhh/otf.jpg
+        card_image: images/hhh/otf.jpg
         type: card
         enabled: true
       -
         id: m2slc0hl
-        cardimage: images/hhh/novproject.jpg
+        card_image: images/hhh/novproject.jpg
         type: card
         enabled: true
       -
         id: m2slclfx
-        cardimage: images/hhh/twp-logo-apr2013-icon-800pxw.png
+        card_image: images/hhh/twp-logo-apr2013-icon-800pxw.png
         type: card
         enabled: true
     type: cards

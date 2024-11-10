@@ -36,6 +36,9 @@
                     {{ if text }}
                         {{ partial:typography/p class="mb-4" :content="text" }}
                     {{ /if }}
+                    {{ if card_image }}
+                        <img class="rounded-t w-full" src="{{ card_image }}" width="512"/>
+                    {{ /if }}
                 </div>
                 {{ button }}
                     {{ partial:components/button }}
