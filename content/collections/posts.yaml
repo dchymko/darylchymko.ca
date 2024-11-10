@@ -4,6 +4,7 @@ sites:
 propagate: false
 template: default
 layout: layout
+mount: 34345b70-7265-41bb-9e26-a9208a3b87ca
 revisions: false
 route: '/posts/{slug}'
 date: true
