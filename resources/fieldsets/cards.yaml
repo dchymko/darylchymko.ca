@@ -42,9 +42,10 @@ fields:
                     display: Button
                     max_rows: 1
                 -
-                  handle: card_image
+                  handle: cardimage
                   field:
                     container: images
                     type: assets
                     display: 'Card Image'
                     localizable: false
+                    max_files: 1

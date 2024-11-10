@@ -3,7 +3,6 @@
     @desc The Cards page builder block.
     @set page.page_builder.cards
 #}}
-
 <!-- /page_builder/_cards.antlers.html -->
 {{ partial:page_builder/block }}
     <div class="span-content grid md:grid-cols-12 gap-fluid-grid-gap">
@@ -36,8 +35,8 @@
                     {{ if text }}
                         {{ partial:typography/p class="mb-4" :content="text" }}
                     {{ /if }}
-                    {{ if card_image }}
-                        <img class="rounded-t w-full" src="{{ card_image }}" width="512"/>
+                    {{ if cardimage }}
+                        <img class="rounded-t w-full" src="{{ cardimage }}" width="512"/>
                     {{ /if }}
                 </div>
                 {{ button }}
