@@ -54,15 +54,14 @@ return [
 
     'widgets' => [
         [
-            'type' => 'images_missing_alt',
-            'container' => 'images',
-            'limit' => 5,
-            'width' => 50,
+            'type' => 'collection',
+            'collection' => 'pages',
+            'limit' => 10,
         ],
         [
             'type' => 'collection',
-            'collection' => 'pages',
-            'width' => 50,
+            'collection' => 'posts',
+            'limit' => 10,
         ],
         [
             'type' => 'form',
