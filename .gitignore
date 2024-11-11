@@ -3,6 +3,7 @@
 /public/storage
 /public/vendor/statamic
 /public/vendor/statamic-peak-tools
+/public/vendor/importer/build
 /public/img/
 /public/static/
 /public/images
