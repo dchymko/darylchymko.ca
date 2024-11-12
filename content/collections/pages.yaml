@@ -4,7 +4,6 @@ sites:
   - okanagan_bikepackers
   - hungry_hungry_half
   - asynchronouswork
-  - social
   - dc_resume
 propagate: false
 template: default

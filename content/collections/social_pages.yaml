@@ -2,7 +2,7 @@ title: 'Social Pages'
 sites:
   - social
 propagate: false
-template: social_pages/show
+template: social/home
 layout: layout
 revisions: false
 route: '/{parent_uri}/{slug}'
@@ -15,8 +15,7 @@ preview_targets:
     label: Entry
     url: '{permalink}'
     refresh: true
-structure:
-  root: true
 inject:
   protect: logged_in
-
+structure:
+  root: true
