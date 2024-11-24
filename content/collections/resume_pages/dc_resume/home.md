@@ -42,7 +42,7 @@ introduction:
         type: text
         text: 'Collaborated with distributed teams to architect high-performing applications that scaled to thousands of concurrent users while also reducing cloud costs by $120K+. Expertise in implementing end-to-end encryption, containerized deployments with Docker/ECS, and CI/CD pipelines. Strong background in system optimization, infrastructure design, and technical mentorship.'
 updated_by: ee0f6187-f16a-43d2-a83a-e119164096b9
-updated_at: 1730793018
+updated_at: 1732377892
 author: 1634515a-5d11-47c1-be78-aaa9a53c0679
 content_blocks:
   -
@@ -137,24 +137,32 @@ content_blocks:
     content:
       -
         type: paragraph
-        attrs:
-          class: lead
         content:
           -
             type: text
-            text: "Hi. I'm Daryl Chymko, a tech enthusiast and outdoor adventurer whose journey with computers began early—so early, in fact, that in Grade 4, I was caught reading a programming book in class instead of paying attention. My teacher nearly took it away, but the curiosity of figuring out how computers work kept me hooked, leading me to explore the world of technology independently long before it was common-place."
+            text: "Hi. I'm Daryl Chymko, a tech enthusiast and outdoor adventurer whose journey with computers began early—so early, in fact, that in Grade 4, I was caught reading a programming book in class instead of paying attention to the lessons. My teacher nearly took it away, but the curiosity of figuring out programming kept me hooked, and I spent my weekends and evenings teaching myself the BASIC language."
       -
         type: paragraph
-        attrs:
-          class: null
         content:
           -
             type: text
-            text: 'That curiosity eventually grew into a career as a software engineer, where I’ve had the chance to develop secure, high-performance platforms and back-end systems for clients across startups and large-scale projects. I thrive in environments where autonomy is the norm, and can quickly adapt to changing needs, whether it’s crafting a secure, scalable solution or navigating an evolving set of requirements. With each project, I aim to create something robust and effective. '
+            text: "That curiosity eventually grew into a career as a software engineer, where I’ve had the chance to develop back-end systems and infrastructure across startups and larger-scale enterprise projects. I thrive in environments where autonomy is the norm, and can quickly adapt to changing needs and evolving requirements. I've worked mostly for remote/distrubuted organizations and have created a site called "
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://AsynchronoUs.work'
+                  rel: null
+                  target: null
+                  title: null
+            text: AsynchronoUs.work
+          -
+            type: text
+            text: ' to share my experiences and lessons working remotely.'
       -
         type: paragraph
-        attrs:
-          class: null
         content:
           -
             type: text
@@ -174,7 +182,7 @@ content_blocks:
             text: 'Get Outside'
           -
             type: text
-            text: ', an initiative that encourages people to explore human-powered outdoor adventures and connect with nature. For me, exploring remote landscapes and adapting to changing weather and the unknown is a way to connect deeply with nature, embracing life’s adventures with the same passion and curiosity I bring to my work'
+            text: ', an initiative that encourages people to explore human-powered outdoor adventures and connect with nature. For me, exploring remote landscapes and adapting to changing weather and the unknown is a way to connect deeply with nature, embracing life’s adventures with the same passion and curiosity I have for technology.'
     type: text_content
     enabled: true
     section_title: 'About me'

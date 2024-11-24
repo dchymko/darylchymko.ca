@@ -8,6 +8,10 @@ tree:
     title: 'The Basics'
     url: 'https://asynchronous.work/posts/the-async-advantage-why-less-real-time-communication-creates-stronger-teams'
   -
+    id: a4b45899-45a8-4712-9d13-bc62f8b2fddb
+    title: Articles
+    url: /posts
+  -
     id: bd84e306-c635-4ad8-9724-c91f5d9cb0f9
     entry: ea3ddd9e-6f99-4174-a105-85048f82112f
   -
